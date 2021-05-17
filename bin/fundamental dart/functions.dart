@@ -66,7 +66,7 @@ void greeting() => print('Hello Farlan');
  * Function yang memiliki parameter namun tidak parameter tersebut tidak harus
  * selalu dipenuhi/diisi
  */
-void greetNewUser({String name, int age, bool isVerified}) {
+void greetNewUser({String? name, int? age, bool? isVerified}) {
   print('$name, $age, $isVerified');
 }
 
